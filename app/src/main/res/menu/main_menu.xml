@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/audioFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/ic_graphic_eq_24px"
+        android:title="Audio Realtime"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/playerFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/ic_music_video_24px"
+        android:title="Audio Record"
+        app:showAsAction="ifRoom" />
+</menu>
